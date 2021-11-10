@@ -3,8 +3,9 @@ package sources.main;
 public class PrfPower extends AbstractPrf {
 
   int caseZero(int[] x, int zero) {
-    PrbOne one = new PrbOne();
-    return one.operate(x[0]);
+    PrbSuccesor succesor = new PrbSuccesor();
+    PrbZero zero_ = new PrbZero();
+    return succesor.operate(zero_.operate(x[0]));
   }
 
   int caseSuccesorY(int[] X, int succesorY) {
