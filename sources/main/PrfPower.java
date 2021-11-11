@@ -7,7 +7,6 @@ public class PrfPower extends AbstractPrf {
     PrbZero zero_ = new PrbZero();
     return succesor.operate(zero_.operate(x[0]));
   }
-
   int caseSuccesorY(int[] X, int succesorY) {
     int y = succesorY - 1;
     PrfMult mult = new PrfMult();

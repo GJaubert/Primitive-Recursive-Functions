@@ -18,5 +18,5 @@ Dentro del directorio en el que ya estaba (*P3_primitive-recursive-functions/sou
 ```
     java -cp ../../bin/ source.main.MainProject [base] [exponente]
     Ejemplo:
-    java -cp ../../bin/ source.main.MainProject 3 4
+    java -cp ../../bin/ sources.main.MainProject 3 4
 ```
